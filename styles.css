@@ -179,8 +179,8 @@ img, svg { display: block; max-width: 100%; }
 .beyond { border-top: 1px solid var(--ink); }
 .beyond-layout { display: grid; grid-template-columns: minmax(380px, 0.95fr) minmax(500px, 1.05fr); gap: clamp(48px, 7vw, 104px); align-items: start; }
 .beyond-portrait { min-width: 0; margin: 0; }
-.portrait-frame { position: relative; border: 1px solid var(--ink); background: var(--ink); overflow: hidden; }
-.portrait-frame img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center 38%; }
+.portrait-frame { position: relative; aspect-ratio: 4 / 3; border: 1px solid var(--ink); background: var(--ink); overflow: hidden; }
+.portrait-frame img { width: 100%; height: 100%; object-fit: cover; object-position: center 38%; }
 .beyond-portrait figcaption { display: grid; grid-template-columns: minmax(120px, 0.34fr) 1fr; gap: 18px; padding: 13px 0; border-bottom: 1px solid var(--grid-strong); color: var(--ink-soft); }
 .beyond-portrait figcaption span:first-child { color: var(--red); font: 10px/1.5 var(--measure); text-transform: uppercase; letter-spacing: 0.06em; }
 .beyond-content { min-width: 0; }
